@@ -22,5 +22,5 @@ const RENTALS_ONLY = [
  */
 export const getFooterSections = (app) => {
   if (app === "studio") return COMMON_ITEMS;
-  return [...COMMON_ITEMS, ...RENTALS_ONLY]; // default = rentals
+  return [...COMMON_ITEMS, ...RENTALS_ONLY]; 
 };
