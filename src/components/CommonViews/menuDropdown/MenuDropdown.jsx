@@ -103,7 +103,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import tailwindStyles from "../../../utils/tailwindStyles";
 import { FOOTER_PATH } from "../../../routes/routesPath";
-import { getFooterSections } from "./FooterSections";
+import { getFooterSections } from "./footerSections";
 
 const MenuDropdown = ({ onCloseMobileMenu, app = "rentals" }) => {
   const [isOpen, setIsOpen] = useState(false);

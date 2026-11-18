@@ -101,7 +101,7 @@
 // src/UserView/components/InitialLandingView/FooterViews/FooterPage.jsx
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import AppAwareNavbar from "../../../../components/CommonViews/AppAwareNavbar";
-import { getFooterSections } from "../../../../components/CommonViews/MenuDropdown/footerSections"; // ← NEW
+import { getFooterSections } from "../../../../components/CommonViews/menuDropdown/footerSections"; // ← NEW
 
 // Views
 import RRPackage from "./InitialFooterRRPackageView";
